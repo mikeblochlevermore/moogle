@@ -2,14 +2,30 @@
 <html lang="en">
     <head>
         <title>Moogle</title>
-        <style>
-            body { text-align: center;}
-        </style>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <h1>Moogle</h1>
-        <h6>🐄 Note: Search results may be more cow related than desired...</h6>
-        <input type="text" placeholder="Search">
-        <input type="submit">
+        <nav>
+            <a href="">Mail</a>
+            <a href="">Images</a>
+            <a class="fa fa-bars"></a>
+            <button href="">Sign In</button>
+        </nav>
+        <div id="logo">
+            <img src="logo.jpg" alt="logo" width="300px">
+        </div>
+        <div id="search_area">
+            <div id="searchbar">
+                <i id="magnifier" class="fa fa-search"></i>
+                <input id="searchinput" type="text" placeholder="">
+            </div>
+        </div>
+        <div>
+            <button id="submit" type="submit">Moogle Search</button>
+            <footer>Search results may be more cow related than desired...</footer>
+        </div>
+
     </body>
 </html>

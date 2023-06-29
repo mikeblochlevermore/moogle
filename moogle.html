@@ -17,13 +17,16 @@
             <img src="logo.jpg" alt="logo" width="300px">
         </div>
         <div id="search_area">
-            <div id="searchbar">
-                <i id="magnifier" class="fa fa-search"></i>
-                <input id="searchinput" type="text" placeholder="">
+            <form action="https://www.google.com/search">
+                <div id="searchbar">
+                    <i id="magnifier" class="fa fa-search"></i>
+                    <input id="searchinput" type="text" name="q" placeholder="">
+                    <input type="hidden" name="q" value="cow">
+                </div>
             </div>
-        </div>
-        <div>
-            <button id="submit" type="submit">Moogle Search</button>
+            <div>
+                <button id="submit" type="submit" value="Google Search">Moogle Search</button>
+        </form>
             <p>Search results may be more cow related than desired...</p>
         </div>
         <footer>

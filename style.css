@@ -11,6 +11,7 @@ nav {
     column-gap: 16px;
     font-size: 13px;
     margin: 10px;
+    height: 100px;
 }
 
 a {
@@ -21,7 +22,6 @@ a {
 
 button {
     min-width: 96px;
-    padding: 9px 23px;
     background: #1a73e8;
     border: 1px solid transparent;
     color: #fff;
@@ -41,11 +41,60 @@ body {
     color: #202124;
 }
 
+main {
+    padding-top: 140px;
+    height: 400px;
+}
+
 #logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height:fit-content;
+}
+
+#adv_logo {
     height: fit-content;
+    text-align: left;
+    position: absolute;
+    margin: 16px;
+}
+
+h3 {
+    text-align: left;
+    color: #ffa3a7;
+    padding: 0px 0px 24px 40px;
+    font-weight: 200;
+    font-size: 20px;
+    height: fit-content;
+}
+
+#adv_form {
+    text-align: left;
+    border-top: solid 1px lightgray;
+    padding: 40px;
+}
+
+.adv_table {
+    height: auto;
+    margin-top: 20px;
+    margin-left: -5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+#adv_button {
+    margin: 5px;
+}
+
+.tableinput {
+    width: 65%;
+    height: 24px;
+    margin: 6px;
+}
+
+.tableheading {
+    width: 16%;
 }
 
 #magnifier {
@@ -86,20 +135,20 @@ body {
 }
 
 #submit {
-background-color: #f8f9fa;
-border: 1px solid #f8f9fa;
-border-radius: 4px;
-color: #3c4043;
-font-family: arial,sans-serif;
-font-size: 14px;
-margin: 11px 4px;
-padding: 0 16px;
-line-height: 27px;
-height: 36px;
-min-width: 54px;
-text-align: center;
-cursor: pointer;
-margin-top: -150px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+
 }
 
 p {
@@ -110,7 +159,7 @@ p {
 footer {
     background: #f2f2f2;
     font-size: 14px;
-    height: 350px;
+    height: 160px;
     text-align: left;
     color: #70757a;
 }

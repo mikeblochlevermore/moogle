@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Moogle</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="adv_logo">
+            <a href="index.html"><img src="logo.JPG" alt="logo" width="80px"></a>
+        </div>
+        <nav>
+            <a href="index.html">Moogle</a>
+            <a href="images.html">Images</a>
+            <a href="https://www.google.com/drive/" class="fa fa-bars"></a>
+            <button href="https://myaccount.google.com">Sign In</button>
+        </nav>
+
+        <h3>Advanced Search</h3>
+
+        <form action="https://www.google.com/search" id="adv_form">
+                <span>Find pages with...</span>
+            <table class="adv_table">
+                <tr>
+                    <td class="tableheading">all these words:</td>
+                    <td><input id="all" class="tableinput" type="text" name="q"></td>
+                </tr>
+                <tr>
+                    <td class="tableheading">this exact word or phrase:</td>
+                    <td><input id="exact" class="tableinput" type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td class="tableheading">any of these words</td>
+                    <td><input id="any" class="tableinput" type="text" name="as_oq" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td class="tableheading">none of these words</td>
+                    <td><input id="none" class="tableinput" type="text" name="as_eq" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td class="tableheading"></td>
+                    <td><button id="adv_button" type="submit" value="Google Search">Advanced Search</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <script>
+        // Adds the word "cow" to the search query
+            document.querySelector('form').addEventListener('submit', function(event) {
+                var searchInput = document.getElementById('all');
+                searchInput.value += ' cow';
+            });
+        </script>
+
+        <footer>
+            <div class="top_footer">Denmark</div>
+            <div>
+                <a href="">About</a>
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+                <a href="">How Search Works</a>
+            </div>
+        </footer>
+    </body>
+</html>

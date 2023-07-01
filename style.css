@@ -54,11 +54,16 @@ main {
     height:fit-content;
 }
 
-#adv_logo {
+#adv_logo_wrapper {
     height: fit-content;
     text-align: left;
     position: absolute;
     margin: 16px;
+}
+
+#adv_logo {
+    width: 80px;
+    height: 36px;
 }
 
 h3 {

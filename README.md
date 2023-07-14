@@ -22,18 +22,20 @@ The search form has a hidden input that just concatenates the word "cow" to the 
 ## Advanced Moogle Search
 Note the changes in the name="" input.
 These cause the lookup handling labelled in the table headings.
+
 ```
-<td class="tableheading">all these words:</td>
-<td><input id="all" class="tableinput" type="text" name="q"></td>
 
-<td class="tableheading">this exact word or phrase:</td>
-<td><input id="exact" class="tableinput" type="text" name="as_epq"></td>
+    <td class="tableheading">this exact word or phrase:</td>
+    <td><input id="exact" class="tableinput" type="text" name="as_epq"></td>
 
-<td class="tableheading">any of these words</td>
-<td><input id="any" class="tableinput" type="text" name="as_oq" placeholder=""></td>
+    <td class="tableheading">all these words:</td>
+    <td><input id="all" class="tableinput" type="text" name="q"></td>
 
-<td class="tableheading">none of these words</td>
-<td><input id="none" class="tableinput" type="text" name="as_eq" placeholder=""></td>
+    <td class="tableheading">any of these words</td>
+    <td><input id="any" class="tableinput" type="text" name="as_oq" placeholder=""></td>
+
+    <td class="tableheading">none of these words</td>
+    <td><input id="none" class="tableinput" type="text" name="as_eq" placeholder=""></td>
 ```
 
 ## Google Image Search

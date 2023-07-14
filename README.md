@@ -1,6 +1,6 @@
 # Moogle
 
-## [See the Video](https://www.youtube.com/watch?v=sFuS4YfQ2fw)
+[See the Video](https://www.youtube.com/watch?v=sFuS4YfQ2fw)
 
 ## A Google clone for cow results
 🐄 Exactly like Google, except the search results are about cows...

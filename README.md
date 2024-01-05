@@ -1,6 +1,6 @@
 # Moogle
 
-<img src="https://github.com/mikeblochlevermore/moogle/blob/master/search/moogle_cover.png?raw=true" max-width="400"/>
+<img src="https://github.com/mikeblochlevermore/moogle/blob/main/moogle_cover.png?raw=true" max-width="400"/>
 
 
 ## [See the Video](https://www.youtube.com/watch?v=sFuS4YfQ2fw)
